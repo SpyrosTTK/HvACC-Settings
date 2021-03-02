@@ -1,0 +1,7 @@
+# CPDLCforGreece
+
+Welcome to my project!
+I have created a profile ,based on the TopSky plugin for euroscope, to make use of the CPDLC features of the plugin!
+The two files included in the package are mandatory in order to operate CPDLC
+Also you can add a file called TopSkyCPDLCsound.wav to get notified whenever a CPDLC message comes through! (Bassicaly any sound you want below 1 second)
+Finally, to operate CPDLC you should modify the Tags.txt or the Lists (Sector Exit or Inbound) and include the TopSky functions on top of the Euroscope ones
