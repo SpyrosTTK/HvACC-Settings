@@ -3,7 +3,7 @@
 Welcome to my project!
 I have created a profile ,based on the TopSky plugin for euroscope, to make use of the CPDLC & PDC features of the plugin!
 
-ll six files included in the package are mandatory in order to operate CPDLC & ACARS. If you already have the Callsigns and Settings files, you should add the CPDLC files. Make sure that you have a Hoppie ACARS code from here >> https://www.hoppie.nl/acars/system/register.html
+All six files included in the package are mandatory in order to operate CPDLC & ACARS. If you already have the Callsigns and Settings files, you should add the CPDLC files. Make sure that you have a Hoppie ACARS code from here >> https://www.hoppie.nl/acars/system/register.html
 
 You can also add a file called TopSkyCPDLCsound.wav to get notified whenever a CPDLC or ACARS message comes through! (Bassicaly any sound you want below 1 second).
 
