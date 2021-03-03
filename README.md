@@ -6,4 +6,4 @@ The two files included in the package are mandatory in order to operate CPDLC & 
 You can also add a file called TopSkyCPDLCsound.wav to get notified whenever a CPDLC or ACARS message comes through! (Bassicaly any sound you want below 1 second).
 Finally, to operate CPDLC you should modify the Tags.txt or the Lists (Sector Exit or Inbound) and include the TopSky functions on top of the Euroscope ones.
 I have included my own Tags.txt file! It is a modified version of the default KEPATH tag family!
-You might want to takeoa quick look to a manual from VATSIMUK here >> https://community.vatsim.uk/topic/36405-full-cpdlc-guide-for-atc-area/ 
+You might want to take a quick look to a manual from VATSIMUK here >> https://community.vatsim.uk/topic/36405-full-cpdlc-guide-for-atc-area/ 
