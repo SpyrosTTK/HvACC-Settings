@@ -16,6 +16,7 @@ You might want to take a quick look to a manual from VATSIMUK here >> https://co
 For those who do not currently have the TopSky plugin, I have included the latsest version. Expect frequent updates!
 
 UPDATE!!! If you want to have bigger menus and staff, you can add this to the TopSkySettings.txt
+
 //BEGIN SCALING (change values to your liking)
 
 //Cursors
