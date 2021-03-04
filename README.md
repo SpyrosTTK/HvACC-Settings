@@ -14,3 +14,5 @@ I have included my own Tags.txt file! It is a modified version of the default KE
 You might want to take a quick look to a manual from VATSIMUK here >> https://community.vatsim.uk/topic/36405-full-cpdlc-guide-for-atc-area/
 
 For those who do not currently have the TopSky plugin, I have included the latsest version. Expect frequent updates!
+
+UPDATE!!! If you want to have bigger menus and staff, you can add this to the TopSkySettings.txt (Read the file!)
