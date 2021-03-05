@@ -15,27 +15,6 @@ You might want to take a quick look to a manual from VATSIMUK here >> https://co
 
 For those who do not currently have the TopSky plugin, I have included the latsest version. Expect frequent updates!
 
-UPDATE!!! If you want to have bigger menus and staff, you can add this to the TopSkySettings.txt
+UPDATE!!! If you want to have smaller menus, you should just delete the section << //BEGIN SCALING ... 
+//END SCALING>>>
 
-//BEGIN SCALING (change values to your liking)
-
-//Cursors (If you already have one pre-installed)
-
-//System_GUI_Scale_Cursors=1
-
-//Global Menu
-System_GUI_Scale_GlobalMenu=1.4
-
-//Radar Menu
-System_GUI_Scale_Menus=1.3
-
-//Route Vector
-System_GUI_Scale_Screen=1
-
-//Radar Targets
-System_GUI_Scale_Tracks=1
-
-//Normale Fenster
-System_GUI_Scale_Windows=1.2
-
-//END SCALING
