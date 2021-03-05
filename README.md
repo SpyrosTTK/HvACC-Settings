@@ -20,6 +20,7 @@ UPDATE!!! If you want to have bigger menus and staff, you can add this to the To
 //BEGIN SCALING (change values to your liking)
 
 //Cursors (If you already have one pre-installed)
+
 //System_GUI_Scale_Cursors=1
 
 //Global Menu
