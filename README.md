@@ -16,5 +16,5 @@ You might want to take a quick look to a manual from VATSIMUK here >> https://co
 For those who do not currently have the TopSky plugin, I have included the latsest version. Expect frequent updates!
 
 UPDATE!!! If you want to have smaller menus, you should just delete the section << //BEGIN SCALING ... 
-//END SCALING>>>
+//END SCALING >>
 
