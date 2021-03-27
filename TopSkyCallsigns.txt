@@ -1,1 +1,1 @@
-..\EuroScope\DataFiles\ICAO_Airlines.txt
+..\EuroScope\LGGG\ICAO_Airlines.txt
