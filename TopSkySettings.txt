@@ -38,3 +38,5 @@ WXR_Gain=85
 WXR_Echo_dBZ_Hi=20
 WXR_Echo_dBZ_Med=15
 WXR_Echo_dBZ_Lo=12
+
+RwyAppLines_Auto=0
