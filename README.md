@@ -1,4 +1,4 @@
-# CPDLCforGreece
+# TopSkyGreece
 
 Welcome to my project!
 I have created a profile ,based on the TopSky plugin for euroscope, to make use of the CPDLC & PDC features of the plugin!
