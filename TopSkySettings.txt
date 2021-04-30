@@ -40,3 +40,6 @@ WXR_Echo_dBZ_Med=15
 WXR_Echo_dBZ_Lo=12
 
 RwyAppLines_Auto=0
+
+Divergence_CLAM=0
+Divergence_RAM=0
