@@ -11,4 +11,6 @@ In order to properly use this profile take a quick look at the manuals which are
 
 To take advantage of the CPDLC and PDC capabilities of the plugin you should register at https://www.hoppie.nl/acars/system/register.html
 
-For any questions regarding this profile relate to the Issues tab on GitHub!
+You can change the values of the settings file to match your personal needs.
+
+For any questions or suggestions relate to the delegated areas on Github!
