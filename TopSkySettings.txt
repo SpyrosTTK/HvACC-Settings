@@ -1,0 +1,45 @@
+//BEGIN SCALING (change values to your liking)
+
+//Cursors 
+//System_GUI_Scale_Cursors=1
+
+//Global Menu
+System_GUI_Scale_GlobalMenu=0.9
+
+//Radar Menu
+System_GUI_Scale_Menus=0.8
+
+//Route Vector
+System_GUI_Scale_Screen=0.9
+
+//Radar Targets
+System_GUI_Scale_Tracks=0.9
+
+//Normale Fenster
+System_GUI_Scale_Windows=0.9
+
+//END SCALING
+
+Setup=SE
+RDF_Mode=2
+RDF_Accuracy=2
+RDF_Floor=2500
+
+Color_Weather_Map=207,128,238
+
+WXR_Latitude=26
+WXR_Latitude_Max=43
+WXR_Latitude_Min=31
+WXR_Longitude=17.8
+WXR_Longitude_Max=37
+WXR_Longitude_Min=15
+WXR_Brightness=20
+WXR_Gain=85
+WXR_Echo_dBZ_Hi=20
+WXR_Echo_dBZ_Med=15
+WXR_Echo_dBZ_Lo=12
+
+RwyAppLines_Auto=0
+
+Divergence_CLAM=0
+Divergence_RAM=0
