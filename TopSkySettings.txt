@@ -4,19 +4,19 @@
 //System_GUI_Scale_Cursors=1
 
 //Global Menu
-System_GUI_Scale_GlobalMenu=0.9
+System_GUI_Scale_GlobalMenu=1
 
 //Radar Menu
-System_GUI_Scale_Menus=0.8
+System_GUI_Scale_Menus=1
 
 //Route Vector
-System_GUI_Scale_Screen=0.9
+System_GUI_Scale_Screen=1
 
 //Radar Targets
-System_GUI_Scale_Tracks=0.9
+System_GUI_Scale_Tracks=1
 
 //Normale Fenster
-System_GUI_Scale_Windows=0.9
+System_GUI_Scale_Windows=1
 
 //END SCALING
 
