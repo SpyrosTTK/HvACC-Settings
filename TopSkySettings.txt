@@ -39,6 +39,13 @@ WXR_Echo_dBZ_Hi=20
 WXR_Echo_dBZ_Med=15
 WXR_Echo_dBZ_Lo=12
 
+CPDLC_MinLevel=325
+CPDLC_Transfer=1
+CPDLC_CFL=1
+CPDLC_DCT=1
+CPDLC_AHDG=1
+CPDLC_ASP=1
+
 RwyAppLines_Auto=0
 
 Divergence_CLAM=0
