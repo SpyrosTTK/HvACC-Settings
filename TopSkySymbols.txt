@@ -1,3 +1,0 @@
-//Radar position symbol for PSR tracks
-SYMBOL:RPS1
-MOVETO:0:0
