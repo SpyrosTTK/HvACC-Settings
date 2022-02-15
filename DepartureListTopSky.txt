@@ -1,0 +1,25 @@
+DEP
+m_Visible:1
+m_X:0
+m_Y:110
+m_LineNumber:0
+m_Resizable:1
+m_OrderingColumn:13
+m_HeaderOnly:0
+m_Column:Callsign:8:0:9:8:1:1::::0:0.0
+m_Column:Type:7:1:78:0:0:1::::1:0.0
+m_Column:F/R:3:1:63:0:0:1::::0:0.0
+m_Column:From:5:1:61:0:0:1::::1:0.0
+m_Column:To:5:1:17:7:0:1::::1:0.0
+m_Column:SID:8:1:56:17:17:1::::0:0.0
+m_Column:RWY:4:1:47:19:19:1::::0:0.0
+m_Column:CFL:4:1:43:11:11:1::::0:0.0
+m_Column:RFL:4:1:22:0:0:1::::0:0.0
+m_Column:aSSR:5:1:60:0:31:1::::1:0.0
+m_Column:C:2:1:58:27:27:1::::0:0.0
+m_Column:G/S:5:1:59:28:28:1::::0:0.0
+m_Column:Seq:4:1:57:0:0:1::::0:0.0
+m_Column:COM:3:1:11:32:32:1::::0:0.0
+m_Column:Text:7:1:19:29:0:1::::0:0.0
+m_Column:PDC:7:0:19:78:0:1::TopSky plugin::0:0.0
+END
