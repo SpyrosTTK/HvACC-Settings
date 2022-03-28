@@ -3,7 +3,7 @@
 Welcome to my project!
 
 This is an adaptation of the TopSky Euroscope plugin for Greece and Cyprus!
-In this profile I have included CPDLC, PDC and automated Squawk assignment functions.
+In this profile I have included CPDLC & PDC functions.
 Also the plugin itself provides RDF and Weather Radar!
 I have also included my own Tags.txt file which is a modified version of the default KEPATH tag family with TopSky functions!
 
