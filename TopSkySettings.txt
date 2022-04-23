@@ -40,6 +40,7 @@ WXR_Echo_dBZ_Med=15
 WXR_Echo_dBZ_Lo=12
 
 CPDLC_MinLevel=325
+//(For Nicosia) CPDLC_MinLevel=285
 CPDLC_Transfer=1
 CPDLC_CFL=1
 CPDLC_DCT=1
