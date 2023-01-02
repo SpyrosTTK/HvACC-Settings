@@ -26,3 +26,6 @@ INSTALLATION
 5) Navigate to: Other Set -> Settings files setup
 6) Change Sector Exit, Sector Inbound and Departure List cofiguration to TopSky config via the dialog (files also located in the TopSkyGreece folder)
 7) You are ready to go! Enjoy all the features! Stay tuned for any updates on github... 
+
+The profile shall not be distributed to be re-produced on any manner.
+If you are willing to help, please open up a pull request
