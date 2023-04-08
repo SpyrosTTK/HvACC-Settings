@@ -1,11 +1,12 @@
-# TopSkyGreece
+# HvACC-TopSky
 
 Welcome to my project!
 
 This is an adaptation of the TopSky Euroscope plugin for Greece and Cyprus!
-In this profile I have included CPDLC & PDC functions.
+All Hellenic vACC controllers are free to use these TopSky setup.
+In this profile I have included CPDLC & PDC functions, custom tags, lists, initial levels and more...
 Also the plugin itself provides RDF and Weather Radar!
-I have also included my own Tags.txt file which is a modified version of the default KEPATH tag family with TopSky functions!
+I have also included TagsTopSky.txt file which is a modified version of the default KEPATH tag family with TopSky functions!
 
 In order to properly use this profile take a quick look at the manuals which are included in the release!
 
@@ -20,7 +21,7 @@ INSTALLATION
 1) Download the latest version (zip or tar.gz)
 2) Extract the zip or tar.gz to any folder
 3) Move the extracted folder to the main Euroscope folder (...\Documents\EuroScope)
-3) Open Euroscope and navigate to: Other Set -> Plug-ins. A dialog will pop up. Load the TopSky plugin (TopSky.dll) located in the TopSkyGreece-(version number) folder
+3) Open Euroscope and navigate to: Other Set -> Plug-ins. A dialog will pop up. Load the TopSky plugin (TopSky.dll) located in the HvACC-TopSky-(version number) folder
 4) Set priotity 1 for TopSky (above all other plugins)
 5) Move Standard ES radar screen and any other display types you want (e.g. SMR radar display) from forbidden to allowed
 5) Navigate to: Other Set -> Settings files setup
