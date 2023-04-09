@@ -25,7 +25,7 @@ INSTALLATION
 4) Set priotity 1 for TopSky (above all other plugins)
 5) Move Standard ES radar screen and any other display types you want (e.g. SMR radar display) from forbidden to allowed
 5) Navigate to: Other Set -> Settings files setup
-6) Change Sector Exit, Sector Inbound and Departure List cofiguration to TopSky config via the dialog (files also located in the TopSkyGreece folder)
+6) Change Sector Exit, Sector Inbound and Departure List cofiguration to TopSky config via the dialog (files also located in the HvACC-TopSky folder)
 7) You are ready to go! Enjoy all the features! Stay tuned for any updates on github... 
 
 The profile shall not be distributed to be re-produced on any manner!
