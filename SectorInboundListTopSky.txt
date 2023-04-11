@@ -21,5 +21,5 @@ m_Column:ETN:6:1:10034:0:0:1:TopSky plugin:::1:0.0
 m_Column:CoPt:6:1:10005:45:22:1:TopSky plugin:TopSky plugin::1:0.0
 m_Column:CoFL:4:1:52:24:24:1::::1:0.0
 m_Column:ETX:6:1:10035:0:0:1:TopSky plugin:::1:0.0
-m_Column:COM:3:1:58:32:32:1:TopSky plugin:::0:0.0
+m_Column:COM:4:1:58:32:32:1:TopSky plugin:::0:0.0
 END
