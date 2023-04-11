@@ -20,7 +20,6 @@ m_Column:aSSR:5:1:10042:62:31:1:TopSky plugin:TopSky plugin::1:0.0
 m_Column:C:2:1:58:27:78:1:::TopSky plugin:0:0.0
 m_Column:G/S:5:1:59:28:28:1::::0:0.0
 m_Column:Seq:4:1:10056:89:0:1:TopSky plugin:TopSky plugin::0:0.0
-m_Column:CTOT:5:1:5001:0:0:1:VATCAN Bookings:::0:0.0
 m_Column:COM:4:1:58:32:32:1:TopSky plugin:::0:0.0
 m_Column:Text:7:1:19:29:0:1::::0:0.0
 END
