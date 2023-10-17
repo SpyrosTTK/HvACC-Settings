@@ -163,6 +163,7 @@ LCR	C
 LCS	Mil
 LEE	Mil
 LFR	C
+LHA	C
 LMG	Mil
 LOP	Mil
 LOS	Mil
