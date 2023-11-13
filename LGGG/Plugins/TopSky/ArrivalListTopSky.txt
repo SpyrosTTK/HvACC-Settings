@@ -1,0 +1,13 @@
+ARR
+m_Visible:1
+m_X:754
+m_Y:41
+m_LineNumber:0
+m_Resizable:1
+m_OrderingColumn:1
+m_HeaderOnly:0
+m_Column:C/S:8:0:10021:8:0:1:TopSky plugin:::0:0.0
+m_Column:ATYP:7:1:78:0:0:1::::1:0.0
+m_Column:RWY:4:1:10010:19:0:1:TopSky plugin:::0:0.0
+m_Column:GATE:6:1:2:1:13:1:Ground Radar plugin:Ground Radar plugin:Ground Radar plugin:0:0.0
+END
