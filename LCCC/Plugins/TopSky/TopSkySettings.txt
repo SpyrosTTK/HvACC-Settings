@@ -27,7 +27,7 @@ RDF_Floor=2500
 
 HTTP_NOTAM_Server=https://www.notams.faa.gov/
 HTTP_NOTAM_Page_Prefix=dinsQueryWeb/queryRetrievalMapAction.do?reportType=Raw&retrieveLocId=
-Airspace_NOTAM_Add=LGGG, LCCC
+Airspace_NOTAM_Add=LCCC
 
 WXR_Latitude=26
 WXR_Latitude_Max=43
@@ -41,8 +41,7 @@ WXR_Echo_dBZ_Hi=20
 WXR_Echo_dBZ_Med=15
 WXR_Echo_dBZ_Lo=12
 
-//Default CPDLC settings for LGGG. LCCC MinLevel is 285
-CPDLC_MinLevel=325
+CPDLC_MinLevel=285
 CPDLC_Transfer=1
 CPDLC_CFL=1
 CPDLC_DCT=1
