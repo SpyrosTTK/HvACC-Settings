@@ -104,9 +104,13 @@ List_Departure_STAND=1
 List_Departure_EOBT=1
 List_Departure_Items=20
 
+[LCLK]
+Airport_Elevation=36
+Airport_Radius=1.5
+
 [LCPH]
 Airport_Elevation=41
-Airport_Radius=1.2
+Airport_Radius=1.0
 
 
 
