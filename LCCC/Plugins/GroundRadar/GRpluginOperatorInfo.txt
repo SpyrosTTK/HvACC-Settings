@@ -1,5 +1,6 @@
 AAC	Mil
 AAH	C
+ABR	C
 ABV	C
 ABW	C
 ACP	C
@@ -89,6 +90,7 @@ FAC	Mil
 FAE	Mil
 FAF	Mil
 FAG	Mil
+FAH	C
 FAS	C
 FAX	C
 FDX	C
@@ -97,6 +99,7 @@ FMY	Mil
 FNF	Mil
 FNY	Mil
 FON	C
+FPO	C
 FPR	Mil
 FQA	C
 FRG	C
@@ -304,6 +307,7 @@ WAD	Mil
 WAG	Mil
 WAM	C
 WCM	C
+WOA	C
 WIS	C
 WIT	Mil
 WTN	Mil
