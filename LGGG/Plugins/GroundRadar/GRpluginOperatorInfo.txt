@@ -227,6 +227,7 @@ PNY	Mil
 POA	Mil
 PON	Mil
 PSW	C
+QAC	C
 QID	Mil
 RAX	C
 RCG	C
