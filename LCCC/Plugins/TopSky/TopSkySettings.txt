@@ -1,6 +1,6 @@
 //BEGIN SCALING (change values to your liking)
 
-//Cursors 
+//Cursors
 //System_GUI_Scale_Cursors=1
 
 //Global Menu
@@ -25,9 +25,23 @@ RDF_Mode=2
 RDF_Accuracy=2
 RDF_Floor=2500
 
-HTTP_NOTAM_Server=https://www.notams.faa.gov/
-HTTP_NOTAM_Page_Prefix=dinsQueryWeb/queryRetrievalMapAction.do?reportType=Raw&retrieveLocId=
-Airspace_NOTAM_Add=LCCC
+Airspace_ASSR_Type=2
+Airspace_ASSR_AutoAssign_Type=2
+Airspace_C_Flag=LG
+Airspace_NOTAM_Add=LGGG
+
+HTTP_METAR_Server=https://aviationweather.gov/
+HTTP_METAR_Page_Prefix=adds/dataserver_current/httpparam?dataSource=metars&requestType=retrieve&format=xml&stationString=
+HTTP_METAR_Page_Suffix=&hoursBeforeNow=1&mostRecentForEachStation=true&fields=raw_text
+HTTP_METAR_Data_Prefix=(prefix)
+HTTP_METAR_Data_Suffix=(suffix)
+
+HTTP_NOTAM_Area_Sched_Text= 
+HTTP_NOTAM_Server=https://eaup.vatsim.pt/api/v1/topsky/areas/LC/notam/
+HTTP_NOTAM_Page_Prefix=LGGG
+HTTP_NOTAM_Page_Suffix=
+
+Color_Weather_Map=207,128,238
 
 WXR_Latitude=26
 WXR_Latitude_Max=43
@@ -58,13 +72,14 @@ Color_Active_Map_Type_1=100,100,100
 Color_Active_Map_Type_2=0,150,150
 Color_Active_Map_Type_3=150,150,150
 Color_Active_Text_Map=0,255,0
-Color_Assumed=0,229,115
+Color_Assumed=80,197,197
 Color_Background=11,65,54
-Color_Concerned=64,159,255
-Color_Coordination=64,159,255
+Color_Concerned=86,190,94
+Color_Coordination=86,190,94
 Color_CPDLC_UM_Clearance=255,150,0
 Color_Field_Highlight=0,0,0
 Color_Foreground=255,255,255
+Color_Redundant=86,190,94
 Color_Selected=0,150,0
 Color_Selected_Group=0,150,0
 Color_Selected_Period=0,0,0
@@ -76,15 +91,14 @@ Color_SEP_Tool_5=255,255,255
 Color_SEP_Tool_6=255,255,255
 Color_SEP_Tool_7=255,255,255
 Color_Sid_Star_Allocation=15,185,15
-Color_Sid_Star_No_Allocation=14,170,14
 Color_System_Calculated_TOC=170,231,197
 Color_System_Calculated_TOD=170,231,197
 Color_TSA_Active=0,200,0
 Color_TSA_Border_Highlight=0,150,150
 Color_Text_Notes=0,100,180
 Color_Trough=97,99,97
-Color_Unconcerned=131,214,254
-Color_Unknown=239,224,42
+Color_Unconcerned=86,190,94
+Color_Unknown=86,190,94
 Color_Urgency=225,25,25
 Color_Urgency_FL=225,25,25
 Color_VAW_Profile=0,200,0
@@ -97,3 +111,6 @@ Color_WM_Fg=0,0,0
 Color_Weather_Map=207,128,238
 Color_Warning=255,128,0
 Color_Global_Menu_Highlight=255,128,0
+
+//Label settings
+Label_UseTransferInColor=1
