@@ -1,6 +1,6 @@
 //BEGIN SCALING (change values to your liking)
 
-//Cursors 
+//Cursors
 //System_GUI_Scale_Cursors=1
 
 //Global Menu
@@ -25,9 +25,23 @@ RDF_Mode=2
 RDF_Accuracy=2
 RDF_Floor=2500
 
-HTTP_NOTAM_Server=https://www.notams.faa.gov/
-HTTP_NOTAM_Page_Prefix=dinsQueryWeb/queryRetrievalMapAction.do?reportType=Raw&retrieveLocId=
+Airspace_ASSR_Type=2
+Airspace_ASSR_AutoAssign_Type=2
+Airspace_C_Flag=LG
 Airspace_NOTAM_Add=LGGG
+
+HTTP_METAR_Server=https://aviationweather.gov/
+HTTP_METAR_Page_Prefix=adds/dataserver_current/httpparam?dataSource=metars&requestType=retrieve&format=xml&stationString=
+HTTP_METAR_Page_Suffix=&hoursBeforeNow=1&mostRecentForEachStation=true&fields=raw_text
+HTTP_METAR_Data_Prefix=(prefix)
+HTTP_METAR_Data_Suffix=(suffix)
+
+HTTP_NOTAM_Area_Sched_Text= 
+HTTP_NOTAM_Server=https://eaup.vatsim.pt/api/v1/topsky/areas/LG/notam/
+HTTP_NOTAM_Page_Prefix=LGGG
+HTTP_NOTAM_Page_Suffix=
+
+Color_Weather_Map=207,128,238
 
 WXR_Latitude=26
 WXR_Latitude_Max=43
@@ -97,3 +111,6 @@ Color_WM_Fg=0,0,0
 Color_Weather_Map=207,128,238
 Color_Warning=255,128,0
 Color_Global_Menu_Highlight=255,128,0
+
+//Label settings
+Label_UseTransferInColor=1
