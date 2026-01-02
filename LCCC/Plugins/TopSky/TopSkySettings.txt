@@ -27,8 +27,8 @@ RDF_Floor=2500
 
 Airspace_ASSR_Type=2
 Airspace_ASSR_AutoAssign_Type=2
-Airspace_C_Flag=LG
-Airspace_NOTAM_Add=LGGG
+Airspace_C_Flag=LC
+Airspace_NOTAM_Add=LCCC
 
 HTTP_METAR_Server=https://aviationweather.gov/
 HTTP_METAR_Page_Prefix=adds/dataserver_current/httpparam?dataSource=metars&requestType=retrieve&format=xml&stationString=
@@ -38,7 +38,7 @@ HTTP_METAR_Data_Suffix=(suffix)
 
 HTTP_NOTAM_Area_Sched_Text= 
 HTTP_NOTAM_Server=https://eaup.vatsim.pt/api/v1/topsky/areas/LC/notam/
-HTTP_NOTAM_Page_Prefix=LGGG
+HTTP_NOTAM_Page_Prefix=LCCC
 HTTP_NOTAM_Page_Suffix=
 
 Color_Weather_Map=207,128,238
@@ -68,7 +68,6 @@ Divergence_CLAM=0
 Divergence_RAM=0
 
 //System Colors
-//System Colors
 Color_Active_Map_Type_1=100,100,100
 Color_Active_Map_Type_2=0,150,150
 Color_Active_Map_Type_3=150,150,150
@@ -80,6 +79,7 @@ Color_Coordination=64,159,255
 Color_CPDLC_UM_Clearance=255,150,0
 Color_Field_Highlight=0,0,0
 Color_Foreground=255,255,255
+Color_Redundant=255,128,255
 Color_Selected=0,150,0
 Color_Selected_Group=0,150,0
 Color_Selected_Period=0,0,0
