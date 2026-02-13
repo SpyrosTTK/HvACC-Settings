@@ -33,7 +33,7 @@ System_State_Depa=DEPA
 System_State_Parked=GATE
 System_RIM=0
 //Added Nicosia to SchengenArea
-System_SchengenArea=BI,EB,ED,EE,EF,EH,EK,EL,EN,EP,ES,ET,EV,EY,GC,LB,LC,LE,LF,LG,LH,LI,LJ,LK,LM,LO,LP,LR,LS,LZ
+System_SchengenArea=BI,EB,ED,EE,EF,EH,EK,EL,EN,EP,ES,ET,EV,EY,GC,LB,LC,LD,LE,LF,LG,LH,LI,LJ,LK,LM,LO,LP,LR,LS,LZ
 System_RMCA_RWY_Closure=50
 System_RMCA_RWY_Closure_Info=20
 System_RMCA_RWY_Closure_LVP=40
@@ -117,24 +117,9 @@ Airport_Elevation=19
 Airport_Radius=1.3
 
 [LGKR]
-Airport_Elevation=6
+Airport_Elevation=5
 Airport_Radius=1.0
 
 [LGIR]
 Airport_Elevation=115
 Airport_Radius=1.0
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

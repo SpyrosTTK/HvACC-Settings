@@ -79,6 +79,7 @@ Color_Coordination=64,159,255
 Color_CPDLC_UM_Clearance=255,150,0
 Color_Field_Highlight=0,0,0
 Color_Foreground=255,255,255
+Color_Redundant=255,128,255
 Color_Selected=0,150,0
 Color_Selected_Group=0,150,0
 Color_Selected_Period=0,0,0
