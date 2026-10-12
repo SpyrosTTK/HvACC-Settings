@@ -1,7 +1,7 @@
 //BEGIN SCALING (change values to your liking)
 
 //Cursors
-//System_GUI_Scale_Cursors=1
+//System_GUI_Scale_Cursors=1.0
 
 //Global Menu
 System_GUI_Scale_GlobalMenu=0.9
@@ -15,45 +15,34 @@ System_GUI_Scale_Screen=0.9
 //Radar Targets
 System_GUI_Scale_Tracks=0.9
 
-//Normale Fenster
+//Normal Windows
 System_GUI_Scale_Windows=0.9
+System_GUI_Font_Fixed_1_Size=11
 
 //END SCALING
 
-Setup=SE
+Setup_COOPANS=1
 RDF_Mode=2
 RDF_Accuracy=2
 RDF_Floor=2500
 
+Airspace_AOR_Airports=LCLK,LCPH,LCRA
+Airspace_AOR_Positions=LCCC,LCLK,LCPH,LCRA
 Airspace_ASSR_Type=2
 Airspace_ASSR_AutoAssign_Type=2
-Airspace_C_Flag=LC
+Airspace_C_Flag=LCLK,LCPH,LCRA
 Airspace_NOTAM_Add=LCCC
+Airspace_SIGMET_Areas=LCCC
 
-HTTP_METAR_Server=https://aviationweather.gov/
-HTTP_METAR_Page_Prefix=adds/dataserver_current/httpparam?dataSource=metars&requestType=retrieve&format=xml&stationString=
-HTTP_METAR_Page_Suffix=&hoursBeforeNow=1&mostRecentForEachStation=true&fields=raw_text
-HTTP_METAR_Data_Prefix=(prefix)
-HTTP_METAR_Data_Suffix=(suffix)
+AIW=0
 
-HTTP_NOTAM_Area_Sched_Text= 
-HTTP_NOTAM_Server=https://eaup.vatsim.pt/api/v1/topsky/areas/LC/notam/
-HTTP_NOTAM_Page_Prefix=LCCC
-HTTP_NOTAM_Page_Suffix=
+APW_Filter=2
 
-Color_Weather_Map=207,128,238
+Areas_AUP_Activation=1
+Areas_Label_Font=Arial
+Areas_Label_FontSize=9
 
-WXR_Latitude=26
-WXR_Latitude_Max=43
-WXR_Latitude_Min=31
-WXR_Longitude=17.8
-WXR_Longitude_Max=37
-WXR_Longitude_Min=15
-WXR_Brightness=20
-WXR_Gain=100
-WXR_Echo_dBZ_Hi=20
-WXR_Echo_dBZ_Med=15
-WXR_Echo_dBZ_Lo=12
+BlindSpot=-1
 
 CPDLC_MinLevel=285
 CPDLC_Transfer=1
@@ -61,25 +50,114 @@ CPDLC_CFL=1
 CPDLC_DCT=1
 CPDLC_AHDG=1
 CPDLC_ASP=1
+CPDLC_FSM_PDC_Fail=NO PDC AVAILABLE FOR <adep>
+CPDLC_VCI_UM_Type=0
+
+Divergence_CLAM_DelayTime=120
+Divergence_RAM_DCT_DelayTime=120
+
+FAST=0
+
+FlightLeg_AssumeTime=3
+FlightLeg_AutoShow=1
+FlightLeg_FontSize=11
+
+HTTP_AUP_URL=https://eaup.vatsim.pt/api/v4/areas/LC/
+
+HTTP_GRIB_Latitude_Max=37
+HTTP_GRIB_Latitude_Min=31
+HTTP_GRIB_Longitude_Max=37
+HTTP_GRIB_Longitude_Min=29
+
+List_Lost_Filter=1
+List_STCA=1700,700
+
+Maps_Font=EuroScope
+Maps_FontSize=11
+
+Menu_DAPs=1
+
+MSAW=0
+
+MTCD_Floor=12500
+MTCD_Filter_Dep=3
+MTCD_Risks_Label=1
+MTCD_Sep_Lat=10
+
+STCA_AlertSound=1
+STCA_Filter=2
+STCA_WakeTurbulenceType=1
+STCA_Sep_Lat_SepLevel=18000
+STCA_Coarse_Sep_Lat_L=5
+STCA_Coarse_Sep_Lat_U=10
+STCA_CurrProx_Sep_Lat_L=5
+STCA_CurrProx_Sep_Lat_U=10
+//STCA_CurrProx_Sep_Lat_S=3
+STCA_FastDiv_Sep_Lat_L=4.98
+STCA_FastDiv_Sep_Lat_U=9.98
+//STCA_LinPred_Sep_Lat_S=3
+//STCA_LinPred_Sep_Lat_S_Div=3
+STCA_LinPred_Sep_Lat_L=5
+STCA_LinPred_Sep_Lat_U=10
+STCA_LinPred_Sep_Lat_L_Div=4.98
+STCA_LinPred_Sep_Lat_U_Div=9.98
+
+System_Coord_Sound_RTI_ACP=1
+System_Coord_Sound_TIP_ACP=1
+System_MagModel_Year=2025
+System_RepHdg_Correction=2
+System_TransferConfirmation=0
+System_Trf_Release=0
+System_TrueColorMode=1
+
+TCT=-1
+
+WXR_Latitude=26
+WXR_Latitude_Max=37
+WXR_Latitude_Min=31
+WXR_Longitude=17.8
+WXR_Longitude_Max=37
+WXR_Longitude_Min=29
+WXR_Brightness=20
+WXR_Gain=100
+WXR_Echo_dBZ_Hi=20
+WXR_Echo_dBZ_Med=15
+WXR_Echo_dBZ_Lo=12
 
 RwyAppLines_Auto=0
 
-Divergence_CLAM=0
-Divergence_RAM=0
-
 //System Colors
-Color_Active_Map_Type_1=100,100,100
-Color_Active_Map_Type_2=0,150,150
-Color_Active_Map_Type_3=150,150,150
-Color_Active_Text_Map=0,255,0
-Color_Assumed=0,229,115
+Color_Active_Map_Type_1=180,180,180
+Color_Active_Text_Map=255,255,255
+Color_Active_Sector=1,1,1
+Color_Assumed=40,240,40
 Color_Background=11,65,54
-Color_Concerned=64,159,255
-Color_Coordination=64,159,255
-Color_CPDLC_UM_Clearance=255,150,0
+Color_BottomShadow=11,65,54
+Color_Concerned=240,240,240
+Color_Coordination=240,240,240
+Color_CPDLC_DM_Request=255,128,0
+Color_CPDLC_Failed=255,255,140
+Color_CPDLC_Pilot_Late=255,255,140
+Color_CPDLC_Standby=255,255,140
+Color_CPDLC_UM_Clearance=255,128,0
 Color_Field_Highlight=0,0,0
+Color_Flight_Highlight=0,150,150
+Color_Flight_Leg=0,200,0
 Color_Foreground=255,255,255
-Color_Redundant=255,128,255
+Color_Heading_Vector=230,230,230
+Color_Inactive_Sector=20,20,20
+Color_Information=40,240,40
+Color_Information_FL=0,200,0
+Color_MQDM=230,230,230
+Color_Negotiation_In=250,250,40
+Color_Negotiation_Out=250,40,250
+Color_Proposition_In=250,250,40
+Color_Proposition_Out=250,40,250
+Color_QDM=230,230,230
+Color_Radar_Win_Bg=11,65,54
+Color_Redundant=240,240,240
+Color_Reminder=255,255,140
+Color_Rwy_Locked=15,185,15
 Color_Selected=0,150,0
 Color_Selected_Group=0,150,0
 Color_Selected_Period=0,0,0
@@ -91,14 +169,15 @@ Color_SEP_Tool_5=255,255,255
 Color_SEP_Tool_6=255,255,255
 Color_SEP_Tool_7=255,255,255
 Color_Sid_Star_Allocation=15,185,15
-Color_Sid_Star_No_Allocation=14,170,14
 Color_System_Calculated_TOC=170,231,197
 Color_System_Calculated_TOD=170,231,197
+Color_Track_Default=240,240,240
+Color_Track_Highlight=240,240,240
 Color_TSA_Active=0,200,0
 Color_TSA_Border_Highlight=0,150,150
 Color_Text_Notes=0,100,180
 Color_Trough=97,99,97
-Color_Unconcerned=131,214,254
+Color_Unconcerned=50,230,240
 Color_Unknown=239,224,42
 Color_Urgency=225,25,25
 Color_Urgency_FL=225,25,25
@@ -110,8 +189,19 @@ Color_WM_Bg=0,180,180
 Color_WM_Border=0,180,180
 Color_WM_Fg=0,0,0
 Color_Weather_Map=207,128,238
-Color_Warning=255,128,0
+Color_Warning=255,255,140
 Color_Global_Menu_Highlight=255,128,0
 
 //Label settings
+Label_AFL_ForceNautical=1
+Label_AHDG_ShowDct=2
+Label_AHDG_HideDctIfCOPX=0
+Label_Alt_Digits=3
+Label_ASP_Digits=3
+Label_CompCsCaps=1
+Label_Field18_Flag_Items=CS/,CS,CALLSIGN/,CALLSIGN
+Label_N_Default=0
 Label_UseTransferInColor=1
+
+[_APP]
+MTCD=0
