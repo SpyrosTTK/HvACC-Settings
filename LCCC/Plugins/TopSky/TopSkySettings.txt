@@ -90,17 +90,19 @@ STCA_WakeTurbulenceType=1
 STCA_Sep_Lat_SepLevel=18000
 STCA_Coarse_Sep_Lat_L=5
 STCA_Coarse_Sep_Lat_U=10
-STCA_CurrProx_Sep_Lat_L=5
-STCA_CurrProx_Sep_Lat_U=10
-//STCA_CurrProx_Sep_Lat_S=3
-STCA_FastDiv_Sep_Lat_L=4.98
-STCA_FastDiv_Sep_Lat_U=9.98
-//STCA_LinPred_Sep_Lat_S=3
-//STCA_LinPred_Sep_Lat_S_Div=3
-STCA_LinPred_Sep_Lat_L=5
-STCA_LinPred_Sep_Lat_U=10
-STCA_LinPred_Sep_Lat_L_Div=4.98
-STCA_LinPred_Sep_Lat_U_Div=9.98
+STCA_CurrProx_Sep_Lat_L=4,75
+STCA_CurrProx_Sep_Lat_L_Safe=4
+//STCA_CurrProx_Sep_Lat_S=2,85
+STCA_CurrProx_Sep_Lat_U=9,5
+STCA_CurrProx_Sep_Lat_U_Safe=8
+STCA_FastDiv_Sep_Lat_L=2,5
+STCA_FastDiv_Sep_Lat_U=5
+STCA_LinPred_Sep_Lat_L=4,5
+STCA_LinPred_Sep_Lat_L_Div=3
+//STCA_LinPred_Sep_Lat_S=2,75
+//STCA_LinPred_Sep_Lat_S_Div=2,4
+STCA_LinPred_Sep_Lat_U=9
+STCA_LinPred_Sep_Lat_U_Div=6
 
 System_Coord_Sound_RTI_ACP=1
 System_Coord_Sound_TIP_ACP=1
@@ -171,6 +173,7 @@ Color_SEP_Tool_7=255,255,255
 Color_Sid_Star_Allocation=15,185,15
 Color_System_Calculated_TOC=170,231,197
 Color_System_Calculated_TOD=170,231,197
+Color_TCT_Warning=255,255,140
 Color_Track_Default=240,240,240
 Color_Track_Highlight=240,240,240
 Color_TSA_Active=0,200,0
@@ -196,7 +199,7 @@ Color_Global_Menu_Highlight=255,128,0
 Label_AFL_ForceNautical=1
 Label_AHDG_ShowDct=2
 Label_AHDG_HideDctIfCOPX=0
-Label_Alt_Digits=3
+Label_Alt_Digits=2
 Label_ASP_Digits=3
 Label_CompCsCaps=1
 Label_Field18_Flag_Items=CS/,CS,CALLSIGN/,CALLSIGN
@@ -205,3 +208,6 @@ Label_UseTransferInColor=1
 
 [_APP]
 MTCD=0
+
+[_CTR]
+Window_SmallQNHTL_ICAO=LCLK
